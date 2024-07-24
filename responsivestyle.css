@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: "Playwrite CU", cursive;
+}
+.container{
+    column-gap: 30px;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to bottom left, blue,purple,violet)
+    
+}
+.form{
+      position: absolute;
+      max-width: 430px;
+      width: 100%;
+      padding: 30px;
+      border-radius: 30px;
+      margin-top: 30px;
+
+}
+
+
+
+header{
+    font-size: 29px;
+    font-weight: 600;
+    color: #2328;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+}
+
+.field{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px ;
+}
+
+.field input{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 1px solid#CACACA;
+    text-align: left;
+
+}
+
+
+.field button{
+    display: flex; 
+    font-weight: 400;
+    border-radius: 36px;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form a{
+    color: rgba(181, 218, 181, 0.533);
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width:100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
